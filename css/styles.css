@@ -12608,3 +12608,8 @@ fieldset:disabled .btn {
     display: none !important;
   }
 }
+
+video{
+  weight : 300px;
+  height: auto;
+}
