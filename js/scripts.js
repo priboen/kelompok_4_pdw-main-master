@@ -23,3 +23,15 @@ function showNotAvailablePopup() {
 for (var i = 0; i < notAvailableButtons.length; i++) {
     notAvailableButtons[i].addEventListener("click", showNotAvailablePopup);
 }
+
+function kirimData() {
+    var username = document.getElementById("username").value;
+    var item = document.querySelector("input[name=item]:checked").value
+    var payment = document.getElementById("payment-method").value
+
+    alert(
+        "Username: " + username +
+        "\nItem: " + item +
+        "\nPayment Method: " + payment
+    )
+}
